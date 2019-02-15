@@ -1,0 +1,102 @@
+{
+	"id": "dd407956-89b9-021d-72eb-1adf0f764569",
+	"name": "Postman",
+	"description": "",
+	"order": [
+		"bd0a1366-4988-08ca-18c6-d4f490f8f028",
+		"8cc3696e-e403-73fd-9ec1-e7cd0d171a04",
+		"f2548e7b-8384-60a9-fa4d-6bba34ec2386"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1550253572010,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "8cc3696e-e403-73fd-9ec1-e7cd0d171a04",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/instituicao/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "dd407956-89b9-021d-72eb-1adf0f764569",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:5000/api/instituicao/3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1550258403748,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\t\"razaosocial\":\"Svigufoo\",\n\t\"nome_fantasia\":\"Svigufoo\",\n\t\"cnpj\":\"1231233/123\",\n\t\"logradouro\":\"Ruaa tal 20\",\n\t\"cep\":\"42221121\",\n\t\"uf\":\"SP\",\n\t\"cidade\":\"São Paulo\"\n}"
+		},
+		{
+			"id": "bd0a1366-4988-08ca-18c6-d4f490f8f028",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/instituicao/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "dd407956-89b9-021d-72eb-1adf0f764569",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:5000/api/instituicao/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1550253558848,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f2548e7b-8384-60a9-fa4d-6bba34ec2386",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/instituicao",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "dd407956-89b9-021d-72eb-1adf0f764569",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:5000/api/instituicao",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1550258582295,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"razao_social\":\"Svigufo\",\n\t\"nome_fantasia\":\"Svigufo\",\n\t\"cnpj\":\"1982918\",\n\t\"logradouro\":\"Rua tal 20\",\n\t\"cep\":\"12121212\",\n\t\"uf\":\"sp\",\n\t\"cidade\":\"sao paulo\"\n\t\n}"
+		}
+	]
+}
